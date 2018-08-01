@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F38A0841FC3E8EB00432231 /* CreateNewGameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38A0831FC3E8EB00432231 /* CreateNewGameTableViewController.swift */; };
+		3F8CBC741FC22D3A00AF67F8 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CBC731FC22D3A00AF67F8 /* Design.swift */; };
+		3F8CBC771FC270ED00AF67F8 /* gameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CBC751FC270ED00AF67F8 /* gameTableViewCell.swift */; };
+		3F8CBC781FC270ED00AF67F8 /* gameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8CBC761FC270ED00AF67F8 /* gameTableViewCell.xib */; };
+		3F8CBC7C1FC27C8D00AF67F8 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CBC7B1FC27C8D00AF67F8 /* ExpandableHeaderView.swift */; };
+		3F8CBC7E1FC370A300AF67F8 /* InterfaceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CBC7D1FC370A300AF67F8 /* InterfaceDataModel.swift */; };
+		3FAC6A901FCCDA73007F7CB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC6A8F1FCCDA73007F7CB4 /* GoogleService-Info.plist */; };
+		3FAC6A921FCCF0E6007F7CB4 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC6A911FCCF0E6007F7CB4 /* ProfileTableViewController.swift */; };
+		3FAC6A941FCD1732007F7CB4 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC6A931FCD1732007F7CB4 /* ChangePasswordViewController.swift */; };
+		3FC364641FC93D7900FF5449 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC364631FC93D7900FF5449 /* DataHandler.swift */; };
+		3FEDD4141FAA3BD500235420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDD4131FAA3BD500235420 /* AppDelegate.swift */; };
+		3FEDD4161FAA3BD500235420 /* EntryPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDD4151FAA3BD500235420 /* EntryPageController.swift */; };
+		3FEDD4191FAA3BD500235420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDD4171FAA3BD500235420 /* Main.storyboard */; };
+		3FEDD41B1FAA3BD500235420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDD41A1FAA3BD500235420 /* Assets.xcassets */; };
+		3FEDD41E1FAA3BD500235420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDD41C1FAA3BD500235420 /* LaunchScreen.storyboard */; };
+		73955BDE1FB8087200D69ACD /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73955BDD1FB8087200D69ACD /* PopUpViewController.swift */; };
+		73E119631FAA48DB00E623AB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E119621FAA48DB00E623AB /* SignUpViewController.swift */; };
+		73E119651FAA48EF00E623AB /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E119641FAA48EF00E623AB /* LoginInViewController.swift */; };
+		73E119691FAA528C00E623AB /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E119681FAA528C00E623AB /* HomePageViewController.swift */; };
+		73E1196B1FAA568B00E623AB /* UpcomingGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1196A1FAA568B00E623AB /* UpcomingGamesViewController.swift */; };
+		73E1196F1FAA62D000E623AB /* SingleGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E1196E1FAA62D000E623AB /* SingleGameViewController.swift */; };
+		73E119711FAA661600E623AB /* CompletedGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E119701FAA661600E623AB /* CompletedGamesViewController.swift */; };
+		C256A7E21FC483900013BACC /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256A7E11FC483900013BACC /* DataModel.swift */; };
+		EDD419DFF818E27E71E84324 /* Pods_Athena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DF86F31086D2762F5D2824 /* Pods_Athena.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F38A0831FC3E8EB00432231 /* CreateNewGameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewGameTableViewController.swift; sourceTree = "<group>"; };
+		3F8CBC731FC22D3A00AF67F8 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		3F8CBC751FC270ED00AF67F8 /* gameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameTableViewCell.swift; sourceTree = "<group>"; };
+		3F8CBC761FC270ED00AF67F8 /* gameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = gameTableViewCell.xib; sourceTree = "<group>"; };
+		3F8CBC7B1FC27C8D00AF67F8 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		3F8CBC7D1FC370A300AF67F8 /* InterfaceDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceDataModel.swift; sourceTree = "<group>"; };
+		3FAC6A8F1FCCDA73007F7CB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FAC6A911FCCF0E6007F7CB4 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		3FAC6A931FCD1732007F7CB4 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		3FC364631FC93D7900FF5449 /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		3FEDD4101FAA3BD500235420 /* Athena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEDD4131FAA3BD500235420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FEDD4151FAA3BD500235420 /* EntryPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPageController.swift; sourceTree = "<group>"; };
+		3FEDD4181FAA3BD500235420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FEDD41A1FAA3BD500235420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEDD41D1FAA3BD500235420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FEDD41F1FAA3BD500235420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73955BDD1FB8087200D69ACD /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		73E119621FAA48DB00E623AB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		73E119641FAA48EF00E623AB /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
+		73E119681FAA528C00E623AB /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		73E1196A1FAA568B00E623AB /* UpcomingGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingGamesViewController.swift; sourceTree = "<group>"; };
+		73E1196E1FAA62D000E623AB /* SingleGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleGameViewController.swift; sourceTree = "<group>"; };
+		73E119701FAA661600E623AB /* CompletedGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedGamesViewController.swift; sourceTree = "<group>"; };
+		97DF86F31086D2762F5D2824 /* Pods_Athena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Athena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6894868C59489FA6C4BC08 /* Pods-Athena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Athena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Athena/Pods-Athena.debug.xcconfig"; sourceTree = "<group>"; };
+		BE17255AF75D1C2357476DE3 /* Pods-Athena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Athena.release.xcconfig"; path = "Pods/Target Support Files/Pods-Athena/Pods-Athena.release.xcconfig"; sourceTree = "<group>"; };
+		C256A7E11FC483900013BACC /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEDD40D1FAA3BD500235420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD419DFF818E27E71E84324 /* Pods_Athena.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8CBC791FC2773A00AF67F8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDD4151FAA3BD500235420 /* EntryPageController.swift */,
+				73E119641FAA48EF00E623AB /* LoginInViewController.swift */,
+				73E119621FAA48DB00E623AB /* SignUpViewController.swift */,
+				73955BDD1FB8087200D69ACD /* PopUpViewController.swift */,
+				3FAC6A911FCCF0E6007F7CB4 /* ProfileTableViewController.swift */,
+				3FAC6A931FCD1732007F7CB4 /* ChangePasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3F8CBC7A1FC2776F00AF67F8 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				73E119681FAA528C00E623AB /* HomePageViewController.swift */,
+				73E1196E1FAA62D000E623AB /* SingleGameViewController.swift */,
+				73E1196A1FAA568B00E623AB /* UpcomingGamesViewController.swift */,
+				73E119701FAA661600E623AB /* CompletedGamesViewController.swift */,
+				3F8CBC7B1FC27C8D00AF67F8 /* ExpandableHeaderView.swift */,
+				3F38A0831FC3E8EB00432231 /* CreateNewGameTableViewController.swift */,
+				3F8CBC731FC22D3A00AF67F8 /* Design.swift */,
+				3F8CBC751FC270ED00AF67F8 /* gameTableViewCell.swift */,
+				3F8CBC761FC270ED00AF67F8 /* gameTableViewCell.xib */,
+				3F8CBC7D1FC370A300AF67F8 /* InterfaceDataModel.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		3FEDD4071FAA3BD400235420 = {
+			isa = PBXGroup;
+			children = (
+				3FEDD4121FAA3BD500235420 /* Athena */,
+				3FEDD4111FAA3BD500235420 /* Products */,
+				AB0D2B6B6A9275604C7DC018 /* Pods */,
+				829E483A0E9FF11D5CFBD752 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEDD4111FAA3BD500235420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDD4101FAA3BD500235420 /* Athena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEDD4121FAA3BD500235420 /* Athena */ = {
+			isa = PBXGroup;
+			children = (
+				3FC364631FC93D7900FF5449 /* DataHandler.swift */,
+				C256A7E11FC483900013BACC /* DataModel.swift */,
+				3F8CBC791FC2773A00AF67F8 /* Login */,
+				3F8CBC7A1FC2776F00AF67F8 /* Games */,
+				3FEDD4131FAA3BD500235420 /* AppDelegate.swift */,
+				3FEDD4171FAA3BD500235420 /* Main.storyboard */,
+				3FEDD41A1FAA3BD500235420 /* Assets.xcassets */,
+				3FEDD41C1FAA3BD500235420 /* LaunchScreen.storyboard */,
+				3FAC6A8F1FCCDA73007F7CB4 /* GoogleService-Info.plist */,
+				3FEDD41F1FAA3BD500235420 /* Info.plist */,
+			);
+			path = Athena;
+			sourceTree = "<group>";
+		};
+		829E483A0E9FF11D5CFBD752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97DF86F31086D2762F5D2824 /* Pods_Athena.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB0D2B6B6A9275604C7DC018 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA6894868C59489FA6C4BC08 /* Pods-Athena.debug.xcconfig */,
+				BE17255AF75D1C2357476DE3 /* Pods-Athena.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEDD40F1FAA3BD500235420 /* Athena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEDD4221FAA3BD500235420 /* Build configuration list for PBXNativeTarget "Athena" */;
+			buildPhases = (
+				D76D5C545023D4CD1C7ABF1D /* [CP] Check Pods Manifest.lock */,
+				3FEDD40C1FAA3BD500235420 /* Sources */,
+				3FEDD40D1FAA3BD500235420 /* Frameworks */,
+				3FEDD40E1FAA3BD500235420 /* Resources */,
+				9332F303E97F965A2B517BFD /* [CP] Embed Pods Frameworks */,
+				37C0BDC80EBE28699E5AB3BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Athena;
+			productName = Athena;
+			productReference = 3FEDD4101FAA3BD500235420 /* Athena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEDD4081FAA3BD400235420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Sportcraft;
+				TargetAttributes = {
+					3FEDD40F1FAA3BD500235420 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3FEDD40B1FAA3BD400235420 /* Build configuration list for PBXProject "Athena" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEDD4071FAA3BD400235420;
+			productRefGroup = 3FEDD4111FAA3BD500235420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEDD40F1FAA3BD500235420 /* Athena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEDD40E1FAA3BD500235420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEDD41E1FAA3BD500235420 /* LaunchScreen.storyboard in Resources */,
+				3FEDD41B1FAA3BD500235420 /* Assets.xcassets in Resources */,
+				3FAC6A901FCCDA73007F7CB4 /* GoogleService-Info.plist in Resources */,
+				3FEDD4191FAA3BD500235420 /* Main.storyboard in Resources */,
+				3F8CBC781FC270ED00AF67F8 /* gameTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37C0BDC80EBE28699E5AB3BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Athena/Pods-Athena-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9332F303E97F965A2B517BFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Athena/Pods-Athena-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Athena/Pods-Athena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76D5C545023D4CD1C7ABF1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Athena-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEDD40C1FAA3BD500235420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAC6A921FCCF0E6007F7CB4 /* ProfileTableViewController.swift in Sources */,
+				3F38A0841FC3E8EB00432231 /* CreateNewGameTableViewController.swift in Sources */,
+				73E119631FAA48DB00E623AB /* SignUpViewController.swift in Sources */,
+				3F8CBC7C1FC27C8D00AF67F8 /* ExpandableHeaderView.swift in Sources */,
+				73E119711FAA661600E623AB /* CompletedGamesViewController.swift in Sources */,
+				3FAC6A941FCD1732007F7CB4 /* ChangePasswordViewController.swift in Sources */,
+				3F8CBC771FC270ED00AF67F8 /* gameTableViewCell.swift in Sources */,
+				73E119651FAA48EF00E623AB /* LoginInViewController.swift in Sources */,
+				73955BDE1FB8087200D69ACD /* PopUpViewController.swift in Sources */,
+				3FC364641FC93D7900FF5449 /* DataHandler.swift in Sources */,
+				3FEDD4161FAA3BD500235420 /* EntryPageController.swift in Sources */,
+				73E119691FAA528C00E623AB /* HomePageViewController.swift in Sources */,
+				73E1196F1FAA62D000E623AB /* SingleGameViewController.swift in Sources */,
+				3F8CBC741FC22D3A00AF67F8 /* Design.swift in Sources */,
+				73E1196B1FAA568B00E623AB /* UpcomingGamesViewController.swift in Sources */,
+				C256A7E21FC483900013BACC /* DataModel.swift in Sources */,
+				3FEDD4141FAA3BD500235420 /* AppDelegate.swift in Sources */,
+				3F8CBC7E1FC370A300AF67F8 /* InterfaceDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FEDD4171FAA3BD500235420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEDD4181FAA3BD500235420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FEDD41C1FAA3BD500235420 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEDD41D1FAA3BD500235420 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEDD4201FAA3BD500235420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FEDD4211FAA3BD500235420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEDD4231FAA3BD500235420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6894868C59489FA6C4BC08 /* Pods-Athena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = Athena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sportcraft.Duke.Athena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEDD4241FAA3BD500235420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE17255AF75D1C2357476DE3 /* Pods-Athena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = Athena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sportcraft.Duke.Athena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEDD40B1FAA3BD400235420 /* Build configuration list for PBXProject "Athena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEDD4201FAA3BD500235420 /* Debug */,
+				3FEDD4211FAA3BD500235420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEDD4221FAA3BD500235420 /* Build configuration list for PBXNativeTarget "Athena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEDD4231FAA3BD500235420 /* Debug */,
+				3FEDD4241FAA3BD500235420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEDD4081FAA3BD400235420 /* Project object */;
+}
